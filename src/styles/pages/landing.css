@@ -1,0 +1,179 @@
+#page-landing{
+    width:100vw;
+    height:100vh;
+    background-color: #1DA1F2;
+    overflow-x: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .content-wrapper main h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#page-landing .content-wrapper main .tweet-content{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-landing .content-wrapper{
+    position: relative;
+    width:100%;
+    max-width: 1100px;
+    height:100%;
+    max-height: 680px;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.content-wrapper .enter-app{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 80px;
+    height: 80px;
+    background-color: #ffd666;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover{
+    background: #96feff;
+}
+
+#page-landing .content-wrapper main li{
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding:10px;
+    padding-right: 20px;
+    background-color: #FFF;
+    display:flex;
+    justify-content: center;
+    width:550px;
+    list-style: none;
+    
+}
+
+#page-landing .content-wrapper main li:hover{
+    background-color:rgb(245, 248, 250);
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.2s;
+}
+
+#page-landing .content-wrapper main li img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+#page-landing .content-wrapper main li .info {
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-landing .content-wrapper main li .info strong {
+    font-size: 16px;
+    color: #14171a;
+}
+  
+#page-landing .content-wrapper main li .info span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #7b8b9a;
+}
+  
+#page-landing .content-wrapper main li .info p {
+    padding:4px;
+    width: 100%;
+    font-weight: 200;
+    font-size: 18px;
+    color: #1f2326;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#page-landing .content-wrapper main li .actions {
+    margin-left: 4px;
+    margin-top: 5px;
+    border:1;
+    border-top-width: 1px solid;
+    border-color: #000;
+    display: flex;
+    height:25px;
+}
+  
+#page-landing .content-wrapper main li .actions a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #667580;
+    font-weight: 200;
+    font-size: 13px;
+    margin-left: 30px;
+}
+  
+#page-landing .content-wrapper main li .actions a:first-child {
+    margin-left: 0;
+}
+  
+#page-landing .content-wrapper main li .actions a img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+#page-landing .content-wrapper main .container{
+    padding-top: 40px;
+    width: 1000px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#page-landing .content-wrapper main .container button{
+    border:1px solid #bac3ca;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    background-color: #FFF;
+}
+
+#page-landing .content-wrapper main .container button:focus{
+    outline: none;
+}
+
+#page-landing .content-wrapper main .container button img{
+    margin-right: 15px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+#page-landing .content-wrapper main .container button h1{
+   color:#14171a;
+   font-size: 30px;
+   font-weight: 300;
+   padding:5px;
+}
+
