@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Who said it?" src=".github/WhoSaidIt?.png" width="100%">
+  <img alt="Who said it?" src=".github/WhoSaidIt.png" width="200px" height="200px">
 </p>
 
 ## 🚀 Tecnologias
