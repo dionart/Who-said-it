@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Who said it?" src=".github/WhoSaidIt?.png" width="100%">
+  <img alt="Who said it?" src=".github/WhoSaidIt?.png" width="500px" height="500px">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Who said it? é um projeto desenvolvido para a disciplina de Inteligência Artifical, com o objetivo de postar os principais resultados obtidos pela nossa IA, a partir de tweets do Donald Trump.
+O Who said it? foi um projeto desenvolvido para a disciplina de Inteligência Artifical, com o objetivo de postar os principais resultados obtidos pela nossa IA, a partir dos tweets do Donald Trump.
 
 ## 🤔 Como contribuir
 
